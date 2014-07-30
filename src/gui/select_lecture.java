@@ -10,10 +10,11 @@ import java.util.*;
 import java.awt.event.*;
 import database.Conexion;
 import core.Kanji;
-import javax.swing.WindowConstants;
 import core.Score;
 import java.awt.Font;
 import java.io.*;
+import javax.swing.*;
+import core.Fuente;
 /**
  *
  * @author unzero
@@ -119,40 +120,33 @@ public class select_lecture extends javax.swing.JDialog implements ActionListene
     private Score points;
     private Font fuente_label;
     private Font fuente_boton;
+    private JButton[] botones;
+    
     public select_lecture(java.awt.Frame parent,boolean modal,Conexion conx,Score pnt){
         
         this(parent,modal);
         
-        try{
-             InputStream myStream = new BufferedInputStream(new FileInputStream("./src/core/MicroHei.ttc"));
-             Font ttfBase = Font.createFont(Font.TRUETYPE_FONT, myStream); 
-             fuente_label = ttfBase.deriveFont(Font.TRUETYPE_FONT, 80);
-             fuente_boton = ttfBase.deriveFont(Font.TRUETYPE_FONT,20);
-        
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-        
-        if(fuente_label != null){
-            jLabel2.setFont(fuente_label);
-            jButton1.setFont(fuente_boton);
-            jButton2.setFont(fuente_boton);
-            jButton3.setFont(fuente_boton);
-            jButton4.setFont(fuente_boton);
-        }
-        
         conexion = conx;
         points = pnt;
         number_generator = new Random();
-        this.setTitle("Elige la lectura");
-        jButton1.addActionListener(this);
-        jButton2.addActionListener(this);
-        jButton3.addActionListener(this);
-        jButton4.addActionListener(this);
-        this.setLocationRelativeTo(parent);
+        fuente_label = new Fuente(80).getFont();
+        fuente_boton = new Fuente(20).getFont(); 
+        
+        if(fuente_label != null){
+            jLabel2.setFont(fuente_label);
+        }
+        
+        botones = new JButton[]{jButton1,jButton2,jButton3,jButton4};
+        for(JButton el : botones){
+            if(fuente_boton != null)el.setFont(fuente_boton);
+            el.addActionListener(this);
+        }
+        
         //jLabel2.setFont(new Font("Serif",Font.PLAIN,50));
         //quitar elementos de decoracion
        // this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        this.setTitle("Elige la lectura");
+        this.setLocationRelativeTo(parent);
         run();
         this.setVisible(true);
     }
@@ -160,54 +154,34 @@ public class select_lecture extends javax.swing.JDialog implements ActionListene
     public void run(){
         in_study = conexion.get( number_generator.nextInt( conexion.size() ) );
         jLabel2.setText(in_study.get_kanji());
-        int id = number_generator.nextInt( in_study.size() );
         ac = number_generator.nextInt( 4 );
-        switch(ac){
-            case 0:
-                jButton1.setText( in_study.get_lecture( id ) );
-                jButton2.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton3.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton4.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                break;
-            case 1:
-                jButton1.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton2.setText( in_study.get_lecture( id ) );
-                jButton3.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton4.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                break;
-            case 2:
-                jButton1.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton2.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton3.setText( in_study.get_lecture( id ) );
-                jButton4.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                break;
-            case 3:
-                jButton1.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton2.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton3.setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
-                jButton4.setText( in_study.get_lecture( id ) );
-                break;
+        for(int x=0;x<4;++x){
+            if( ac == x ){
+                botones[x].setText( in_study.get_lecture( number_generator.nextInt( in_study.size() ) ) );
+            }else{
+                do{
+                    botones[x].setText( conexion.get_lecture( number_generator.nextInt( conexion.total_lectures() ) ) );
+                }while( in_study.get_lectures().indexOf(  botones[x].getText() ) != -1 );
+            }
         }
+        
     }
 
     @Override
     public void actionPerformed(ActionEvent ev){
-        int pulsed = -1;
-        if(ev.getSource() == jButton1){
-            pulsed = 0;
-        }else if(ev.getSource() == jButton2){
-            pulsed = 1;
-        }else if(ev.getSource() == jButton3){
-            pulsed = 2;
-        }else if(ev.getSource() == jButton4){
-            pulsed = 3;
+        boolean flag = false;
+        if( ev.getSource() instanceof JButton){
+            if( in_study.get_lectures().indexOf(  ((JButton)ev.getSource()).getText() ) != -1 ){
+                flag = true;
+            }
         }
-        if(pulsed == ac){
+        if(flag){
             core.Common.message("お疲れさま!");
             points.plus();
         }else{
             core.Common.errorMessage("Las lecturas correctas eran: "+in_study.toString());
         }
+        
         this.dispose();
     }
     

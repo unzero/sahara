@@ -16,7 +16,7 @@ public class Conexion{
 	/*CLASS FIELDS*/
 	private	LinkedList<Kanji> kanji_list;
 	private LinkedList<String> all_lectures;
-	private String file_path = "./src/database/data.dat";
+	private String file_path = "./resources/data.dat";
 
 	/*PUBLIC METHODS*/
 	public Conexion() throws IOException{
@@ -67,5 +67,29 @@ public class Conexion{
 			buf.write(kanji_list.get(x).toString());
 		}
 		buf.close();
+	}
+        
+        public void write_lectures() throws IOException {
+		BufferedWriter buf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("./resources/all_lectures.dat"),"UTF-8"));
+		for(int x=0;x<all_lectures.size();++x){
+			buf.write(all_lectures.get(x)+"\n");
+		}
+		buf.close();
+	}
+        
+        
+        public void write_p1p() throws IOException {
+		BufferedWriter buf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("./resources/p1p.dat"),"UTF-8"));
+                BufferedWriter buf1 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("./resources/kj.dat"),"UTF-8"));
+		for(int x=0;x<kanji_list.size();++x){
+			Kanji ac = kanji_list.get(x);
+                        for(String el : ac.get_lectures()){
+                            buf.write(ac.get_kanji()+"　"+el+"\n");
+                            
+                        }
+                        buf1.write(ac.get_kanji()+"\n");
+		}
+		buf.close();
+                buf1.close();
 	}
 }

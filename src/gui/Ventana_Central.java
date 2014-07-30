@@ -51,6 +51,11 @@ public class Ventana_Central extends javax.swing.JFrame {
         jMenu2.setText("Archivo");
 
         jMenuItem1.setText("Consultar Listado");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem1);
 
         jMenuItem2.setText("Salir");
@@ -119,6 +124,18 @@ public class Ventana_Central extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+        try{
+            Conexion cn = new Conexion();
+            cn.write_lectures();
+            cn.write_p1p();
+        }catch(Exception e){
+            core.Common.errorMessage();
+            e.printStackTrace();
+        }
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
      * @param args the command line arguments
