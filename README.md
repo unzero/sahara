@@ -5,4 +5,6 @@ Proyecto personal, busca ser una herramienta para el estudio sistematico de la e
 Espero pueda ser de utilidad para muchas personas.
 
 Usa la fuente WenQuenYi Micro hei
+
+Es un proyecto de netbeans
 ======

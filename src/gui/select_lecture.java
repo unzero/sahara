@@ -124,7 +124,7 @@ public class select_lecture extends javax.swing.JDialog implements ActionListene
         this(parent,modal);
         
         try{
-             InputStream myStream = new BufferedInputStream(new FileInputStream("/home/unzero/font.ttc"));
+             InputStream myStream = new BufferedInputStream(new FileInputStream("./src/core/MicroHei.ttc"));
              Font ttfBase = Font.createFont(Font.TRUETYPE_FONT, myStream); 
              fuente_label = ttfBase.deriveFont(Font.TRUETYPE_FONT, 80);
              fuente_boton = ttfBase.deriveFont(Font.TRUETYPE_FONT,20);

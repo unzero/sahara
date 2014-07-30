@@ -16,7 +16,7 @@ public class Conexion{
 	/*CLASS FIELDS*/
 	private	LinkedList<Kanji> kanji_list;
 	private LinkedList<String> all_lectures;
-	private String file_path = "/home/unzero/kanji/database/data.dat";
+	private String file_path = "./src/database/data.dat";
 
 	/*PUBLIC METHODS*/
 	public Conexion() throws IOException{
