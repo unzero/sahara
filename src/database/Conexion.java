@@ -1,95 +1,50 @@
 package database;
 
 import java.util.LinkedList;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.FileInputStream;
-import java.io.BufferedWriter;
-import java.io.OutputStreamWriter;
-import java.io.FileOutputStream;
 import java.io.IOException;
+import core.Configuracion;
+import core.FileReader;
 //DEFINED CLASS
 import core.Kanji;
 
-public class Conexion{
-	
-	/*CLASS FIELDS*/
-	private	LinkedList<Kanji> kanji_list;
-	private LinkedList<String> all_lectures;
-	private String file_path = "./resources/data.dat";
+public class Conexion {
 
-	/*PUBLIC METHODS*/
-	public Conexion() throws IOException{
-		kanji_list = new LinkedList<Kanji>();
-		all_lectures = new LinkedList<String>();
-		read();
-	}
-	
-	public void close() throws IOException{
-		write();
-	}
+    /*CLASS FIELDS*/
+    private LinkedList<Kanji> kanji_list;
+    private LinkedList<String> all_lectures;
 
-	public Kanji get(int i){
-		return kanji_list.get(i);
-	}
+    /*PUBLIC METHODS*/
+    public Conexion(Configuracion cn) throws IOException {
+        kanji_list = new LinkedList<Kanji>();
+        all_lectures = new LinkedList<String>();
+        open(cn.getFileName());
+    }
 
-	public String get_lecture(int i){
-		return all_lectures.get(i);
-	}
+    public Kanji get(int i) {
+        return kanji_list.get(i);
+    }
 
-	public int size(){
-		return kanji_list.size();
-	}
+    public String get_lecture(int i) {
+        return all_lectures.get(i);
+    }
 
-	public int total_lectures(){
-		return all_lectures.size();
-	}
+    public int size() {
+        return kanji_list.size();
+    }
 
-	/*PRIVATE METHODS*/
-	private void read() throws IOException {
-		BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream(file_path),"UTF-8"));
-		String line;
-		while( (line = buf.readLine() ) != null){
-			if(!line.equals("")){
-				Kanji new_kanji = new Kanji(line);
-				kanji_list.add( new_kanji );
-				for(String el : new_kanji.get_lectures()){
-					if(all_lectures.indexOf(el) == -1)all_lectures.add(el);
-				}
-			}
-		}
-		buf.close();
-	}
+    public int total_lectures() {
+        return all_lectures.size();
+    }
 
-	private void write() throws IOException {
-		BufferedWriter buf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file_path),"UTF-8"));
-		for(int x=0;x<kanji_list.size();++x){
-			buf.write(kanji_list.get(x).toString());
-		}
-		buf.close();
-	}
-        
-        public void write_lectures() throws IOException {
-		BufferedWriter buf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("./resources/all_lectures.dat"),"UTF-8"));
-		for(int x=0;x<all_lectures.size();++x){
-			buf.write(all_lectures.get(x)+"\n");
-		}
-		buf.close();
-	}
-        
-        
-        public void write_p1p() throws IOException {
-		BufferedWriter buf = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("./resources/p1p.dat"),"UTF-8"));
-                BufferedWriter buf1 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("./resources/kj.dat"),"UTF-8"));
-		for(int x=0;x<kanji_list.size();++x){
-			Kanji ac = kanji_list.get(x);
-                        for(String el : ac.get_lectures()){
-                            buf.write(ac.get_kanji()+"　"+el+"\n");
-                            
-                        }
-                        buf1.write(ac.get_kanji()+"\n");
-		}
-		buf.close();
-                buf1.close();
-	}
+    private void open(String path) throws IOException{
+        LinkedList<String> rawData = new FileReader("./resources/"+path).getContent();
+        for(String el : rawData){
+            Kanji newKanji = new Kanji(el);
+            kanji_list.add(newKanji);
+            for(String tmp : newKanji.get_lectures()){
+                if(all_lectures.indexOf(tmp)==-1)all_lectures.add(tmp);
+            }
+        }
+    }
+    
 }

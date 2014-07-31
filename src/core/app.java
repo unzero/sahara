@@ -20,7 +20,7 @@ private final static int options = 4;
 	public app() throws IOException {
 		reader = new Scanner(System.in);
 		random_generator = new Random();
-		conexion = new Conexion();
+		//conexion = new Conexion();
 	}
 
 	private int read_int(){

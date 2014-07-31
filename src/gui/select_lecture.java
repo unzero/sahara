@@ -148,7 +148,19 @@ public class select_lecture extends javax.swing.JDialog implements ActionListene
         this.setTitle("Elige la lectura");
         this.setLocationRelativeTo(parent);
         run();
+        
+        //creating the alarm, it sumulates the time that the user have to answer 
+        Thread tt = new Thread( new Alarm(botones[(ac+1)%4]));
+        tt.start();
+        
         this.setVisible(true);
+        System.out.println("OK");
+        try{
+            if(tt.getState() == Thread.State.TIMED_WAITING){
+                tt.notify();
+            }
+            tt.join();
+        }catch(Exception ex){}
     }
     
     public void run(){
@@ -169,6 +181,7 @@ public class select_lecture extends javax.swing.JDialog implements ActionListene
 
     @Override
     public void actionPerformed(ActionEvent ev){
+        if(!this.isFocused())return;
         boolean flag = false;
         if( ev.getSource() instanceof JButton){
             if( in_study.get_lectures().indexOf(  ((JButton)ev.getSource()).getText() ) != -1 ){
@@ -181,8 +194,24 @@ public class select_lecture extends javax.swing.JDialog implements ActionListene
         }else{
             core.Common.errorMessage("Las lecturas correctas eran: "+in_study.toString());
         }
-        
         this.dispose();
     }
     
+}
+
+class Alarm implements Runnable{
+    private JButton toActive;
+    
+    public  Alarm(JButton toActive){
+        this.toActive = toActive;
+    }
+    
+    public void run(){
+        try{
+            Thread.sleep(4000);
+        }catch(Exception ex){
+            
+        }
+        toActive.doClick();
+    }
 }

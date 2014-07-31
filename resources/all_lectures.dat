@@ -1,849 +1,851 @@
-insert into lecture values("イチ");
-insert into lecture values("ひと。つ");
-insert into lecture values("オツ");
-insert into lecture values("おつに");
-insert into lecture values("チョウ");
-insert into lecture values("テイ ");
-insert into lecture values("シチ");
-insert into lecture values("なな。つ");
-insert into lecture values("ク");
-insert into lecture values("キュウ");
-insert into lecture values("ここの。つ");
-insert into lecture values("リョウ");
-insert into lecture values("ニ");
-insert into lecture values("ふた。つ");
-insert into lecture values("ジン");
-insert into lecture values("ニン");
-insert into lecture values("ひと");
-insert into lecture values("ニュウ");
-insert into lecture values("いり");
-insert into lecture values("い。れる");
-insert into lecture values("ハチ");
-insert into lecture values("やっつ");
-insert into lecture values("トウ");
-insert into lecture values("かたな");
-insert into lecture values("リキ");
-insert into lecture values("リョク");
-insert into lecture values("ちから");
-insert into lecture values("ジュウ");
-insert into lecture values("とう");
-insert into lecture values("また");
-insert into lecture values("ジョウ");
-insert into lecture values("サン");
-insert into lecture values("みっつ");
-insert into lecture values("うえ");
-insert into lecture values("かみ");
-insert into lecture values("のぼ。る");
-insert into lecture values("あ。げる");
-insert into lecture values("あ。がる");
-insert into lecture values("カ");
-insert into lecture values("ゲ");
-insert into lecture values("した");
-insert into lecture values("もと");
-insert into lecture values("しも");
-insert into lecture values("くだ。る");
-insert into lecture values("さ。げる");
-insert into lecture values("さ。がる");
-insert into lecture values("ガン");
-insert into lecture values("まる。い");
-insert into lecture values("ひさ。しい");
-insert into lecture values("ひさ。しく");
-insert into lecture values("ボウ");
-insert into lecture values("ボン");
-insert into lecture values("は");
-insert into lecture values("シャク");
-insert into lecture values("セン");
-insert into lecture values("ち");
-insert into lecture values("およ。び");
-insert into lecture values("およ。ぶ");
-insert into lecture values("コウ");
-insert into lecture values("くち");
-insert into lecture values("ド");
-insert into lecture values("ト");
-insert into lecture values("つち");
-insert into lecture values("シ");
-insert into lecture values("セキ");
-insert into lecture values("ゆう");
-insert into lecture values("ダイ");
-insert into lecture values("タイ");
-insert into lecture values("おう。きい");
-insert into lecture values("ジョ");
-insert into lecture values("ニョウ");
-insert into lecture values("おんな");
-insert into lecture values("ス");
-insert into lecture values("こ");
-insert into lecture values("スン");
-insert into lecture values("ショウ");
-insert into lecture values("しい。さい");
-insert into lecture values("やま ");
-insert into lecture values("かわ ");
-insert into lecture values("コ");
-insert into lecture values("キ");
-insert into lecture values("タン");
-insert into lecture values("ほ。す");
-insert into lecture values("ひ。る");
-insert into lecture values("ゆみ");
-insert into lecture values("ヨ");
-insert into lecture values("あた。える");
-insert into lecture values("バン");
-insert into lecture values("マン");
-insert into lecture values("サイ");
-insert into lecture values("フ");
-insert into lecture values("チュウ");
-insert into lecture values("なか");
-insert into lecture values("とぼ。しい");
-insert into lecture values("ゴ");
-insert into lecture values("たが。い");
-insert into lecture values("いつ。つ");
-insert into lecture values("セイ");
-insert into lecture values("い");
-insert into lecture values("コン");
-insert into lecture values("キン");
-insert into lecture values("いま");
-insert into lecture values("カイ");
-insert into lecture values("かい。して");
-insert into lecture values("ブツ");
-insert into lecture values("ほとけ");
-insert into lecture values("ゲン");
-insert into lecture values("ナイ");
-insert into lecture values("うち");
-insert into lecture values("ロク");
-insert into lecture values("ムッツ");
-insert into lecture values("キョウ");
-insert into lecture values("フン");
-insert into lecture values("ブン");
-insert into lecture values("わ。ける");
-insert into lecture values("セツ");
-insert into lecture values("き。る");
-insert into lecture values("か。る");
-insert into lecture values("ケ");
-insert into lecture values("ば。ける");
-insert into lecture values("ば。かす");
-insert into lecture values("ヒツ");
-insert into lecture values("ヒキ");
-insert into lecture values("ユウ");
-insert into lecture values("とも");
-insert into lecture values("ハン");
-insert into lecture values("ヤク");
-insert into lecture values("エン");
-insert into lecture values("テン");
-insert into lecture values("あめ");
-insert into lecture values("タ");
-insert into lecture values("ふと。い");
-insert into lecture values("ふと。る");
-insert into lecture values("おっと");
-insert into lecture values("すこ。し");
-insert into lecture values("すく。ない");
-insert into lecture values("しゃく");
-insert into lecture values("まぼろし");
-insert into lecture values("とむら。い");
-insert into lecture values("とまら。う");
-insert into lecture values("イン");
-insert into lecture values("ひ。く");
-insert into lecture values("シン");
-insert into lecture values("こころ");
-insert into lecture values("と");
-insert into lecture values("シュ");
-insert into lecture values("て");
-insert into lecture values("シュウ");
-insert into lecture values("おさ。める");
-insert into lecture values("モン");
-insert into lecture values("ホウ");
-insert into lecture values("かた");
-insert into lecture values("ニチ");
-insert into lecture values("ジツ");
-insert into lecture values("ひ");
-insert into lecture values("ゲツ");
-insert into lecture values("ガツ");
-insert into lecture values("つき");
-insert into lecture values("モク");
-insert into lecture values("ボク");
-insert into lecture values("き");
-insert into lecture values("とめ");
-insert into lecture values("と。める");
-insert into lecture values("と。まる");
-insert into lecture values("ヒ");
-insert into lecture values("くら。べる");
-insert into lecture values("モウ");
-insert into lecture values("うじ");
-insert into lecture values("スイ");
-insert into lecture values("みず");
-insert into lecture values("ちち");
-insert into lecture values("ヘン");
-insert into lecture values("ギュウ");
-insert into lecture values("うし");
-insert into lecture values("ケン");
-insert into lecture values("いぬ");
-insert into lecture values("オウ");
-insert into lecture values("ケツ");
-insert into lecture values("か。ける");
-insert into lecture values("か。く");
-insert into lecture values("よ");
-insert into lecture values("ソウ");
-insert into lecture values("カツ");
-insert into lecture values("トツ");
-insert into lecture values("セ");
-insert into lecture values("おか");
-insert into lecture values("ヘイ");
-insert into lecture values("ぬし");
-insert into lecture values("つか。える");
-insert into lecture values("つ。く");
-insert into lecture values("つ。ける");
-insert into lecture values("か。わり");
-insert into lecture values("か。わる");
-insert into lecture values("レイ");
-insert into lecture values("イ");
-insert into lecture values("ケイ");
-insert into lecture values("あに");
-insert into lecture values("サツ");
-insert into lecture values("冬");
-insert into lecture values("シュツ");
-insert into lecture values("すい");
-insert into lecture values("で。る");
-insert into lecture values("だ。す");
-insert into lecture values("カン");
-insert into lecture values("くわ。える");
-insert into lecture values("くわ。わる");
-insert into lecture values("つつ。む");
-insert into lecture values("コク");
-insert into lecture values("きた");
-insert into lecture values("なか。ば");
-insert into lecture values("うらな。い");
-insert into lecture values("うらな。う");
-insert into lecture values("し。める");
-insert into lecture values("キョ");
-insert into lecture values("さ。る");
-insert into lecture values("ふる。い");
-insert into lecture values("め。す");
-insert into lecture values("ウ");
-insert into lecture values("みぎ");
-insert into lecture values("シユウ");
-insert into lecture values("よん");
-insert into lecture values("よっつ");
-insert into lecture values("アツ");
-insert into lecture values("ガイ");
-insert into lecture values("ほか");
-insert into lecture values("そと");
-insert into lecture values("シツ");
-insert into lecture values("うしな。う");
-insert into lecture values("シャ");
-insert into lecture values("うつ。す");
-insert into lecture values("二");
-insert into lecture values("あま");
-insert into lecture values("サ");
-insert into lecture values("ひだり");
-insert into lecture values("たくみ");
-insert into lecture values("たく。みに");
-insert into lecture values("いち");
-insert into lecture values("ぬの");
-insert into lecture values("ビョウ");
-insert into lecture values("たいら");
-insert into lecture values("ひら。たい");
-insert into lecture values("ひら。たく");
-insert into lecture values("ヨウ");
-insert into lecture values("おさな。い");
-insert into lecture values("ひろ。い");
-insert into lecture values("ひろ。げる");
-insert into lecture values("ひろ。がる");
-insert into lecture values("かなら。ず");
-insert into lecture values("ダ");
-insert into lecture values("う。つ");
-insert into lecture values("フツ");
-insert into lecture values("はら。う");
-insert into lecture values("ミ");
-insert into lecture values("マツ");
-insert into lecture values("すえ");
-insert into lecture values("ホン");
-insert into lecture values("ふだ");
-insert into lecture values("ただ。しい");
-insert into lecture values("ボ");
-insert into lecture values("はは");
-insert into lecture values("ミン");
-insert into lecture values("たみ");
-insert into lecture values("ヒョウ");
-insert into lecture values("こおり");
-insert into lecture values("エイ");
-insert into lecture values("しる");
-insert into lecture values("おか。す");
-insert into lecture values("ギョク");
-insert into lecture values("たま");
-insert into lecture values("あま。い");
-insert into lecture values("う。む");
-insert into lecture values("う。まれる");
-insert into lecture values("なま");
-insert into lecture values("みち。いる");
-insert into lecture values("デン");
-insert into lecture values("た");
-insert into lecture values("ユ");
-insert into lecture values("よし");
-insert into lecture values("もう。す");
-insert into lecture values("ハク");
-insert into lecture values("ビャク");
-insert into lecture values("しろ。い");
-insert into lecture values("かわ");
-insert into lecture values("さら");
-insert into lecture values("め");
-insert into lecture values("ム");
-insert into lecture values("や");
-insert into lecture values("いし");
-insert into lecture values("ジ");
-insert into lecture values("しめ。す");
-insert into lecture values("あな");
-insert into lecture values("リツ");
-insert into lecture values("た。つ");
-insert into lecture values("ショ");
-insert into lecture values("しょ。する");
-insert into lecture values("ゴウ");
-insert into lecture values("ベン");
-insert into lecture values("こ。む");
-insert into lecture values("こ。める");
-insert into lecture values("こ。み");
-insert into lecture values("まじ。る");
-insert into lecture values("まじ。わる");
-insert into lecture values("ギョウ");
-insert into lecture values("あお。ぐ");
-insert into lecture values("おお。せ");
-insert into lecture values("まか。せる");
-insert into lecture values("くわだ。て");
-insert into lecture values("くわだ。てる");
-insert into lecture values("フク");
-insert into lecture values("ふせる");
-insert into lecture values("バツ");
-insert into lecture values("やす。み");
-insert into lecture values("やす。む");
-insert into lecture values("かり");
-insert into lecture values("つた。える");
-insert into lecture values("つた。わる");
-insert into lecture values("あ。てる");
-insert into lecture values("さき");
-insert into lecture values("ひかり");
-insert into lecture values("ひか。る");
-insert into lecture values("ゼン");
-insert into lecture values("まった。く");
-insert into lecture values("ふたた。び");
-insert into lecture values("レツ");
-insert into lecture values("おと。る");
-insert into lecture values("しるし");
-insert into lecture values("あや。うい");
-insert into lecture values("さけ。ぶ");
-insert into lecture values("カク");
-insert into lecture values("あ。う");
-insert into lecture values("キチ");
-insert into lecture values("ドウ");
-insert into lecture values("おな。じ");
-insert into lecture values("メイ");
-insert into lecture values("ミョウ");
-insert into lecture values("な");
-insert into lecture values("リ");
-insert into lecture values("は。く");
-insert into lecture values("む。く");
-insert into lecture values("む。かう");
-insert into lecture values("す。う");
-insert into lecture values("まわ。る");
-insert into lecture values("まわ。り");
-insert into lecture values("まわ。す");
-insert into lecture values("よ。る");
-insert into lecture values("ダン");
-insert into lecture values("ザイ");
-insert into lecture values("千");
-insert into lecture values("おお。い");
-insert into lecture values("この。む");
-insert into lecture values("す。く");
-insert into lecture values("ニョ");
-insert into lecture values("あざ");
-insert into lecture values("ソン");
-insert into lecture values("ぞん");
-insert into lecture values("ぞん。する");
-insert into lecture values("タク");
-insert into lecture values("まも。る");
-insert into lecture values("アン");
-insert into lecture values("やす。い");
-insert into lecture values("てら");
-insert into lecture values("ジュン");
-insert into lecture values("めぐ。る");
-insert into lecture values("ほ");
-insert into lecture values("ネン");
-insert into lecture values("とし");
-insert into lecture values("シキ");
-insert into lecture values("いそが。しい");
-insert into lecture values("な。る");
-insert into lecture values("な。す");
-insert into lecture values("あつか。う");
-insert into lecture values("むね");
-insert into lecture values("はや。い");
-insert into lecture values("キョク");
-insert into lecture values("ま。がる");
-insert into lecture values("ま。げる");
-insert into lecture values("エ");
-insert into lecture values("あ。る");
-insert into lecture values("つくえ");
-insert into lecture values("く。ちる");
-insert into lecture values("つぎ");
-insert into lecture values("つ。ぐ");
-insert into lecture values("し。ぬ");
-insert into lecture values("マイ");
-insert into lecture values("あせ");
-insert into lecture values("けが。す");
-insert into lecture values("けが。れる");
-insert into lecture values("え");
-insert into lecture values("いけ");
-insert into lecture values("はい");
-insert into lecture values("あらそ。う");
-insert into lecture values("あらそ。い");
-insert into lecture values("あ。たる");
-insert into lecture values("ヒャク");
-insert into lecture values("つ。くす");
-insert into lecture values("チク");
-insert into lecture values("たけ");
-insert into lecture values("ベイ");
-insert into lecture values("こめ");
-insert into lecture values("いと");
-insert into lecture values("ひつじ");
-insert into lecture values("はね");
-insert into lecture values("ロウ");
-insert into lecture values("おい");
-insert into lecture values("お。いる");
-insert into lecture values("かんが。え");
-insert into lecture values("かんが。える");
-insert into lecture values("みみ");
-insert into lecture values("ニク");
-insert into lecture values("はだ");
-insert into lecture values("みずか。ら");
-insert into lecture values("いた。る");
-insert into lecture values("ゼツ");
-insert into lecture values("ふね");
-insert into lecture values("ショク");
-insert into lecture values("いろ");
-insert into lecture values("いも");
-insert into lecture values("しば");
-insert into lecture values("むし");
-insert into lecture values("い。く");
-insert into lecture values("ゆ。く");
-insert into lecture values("おこ。なう");
-insert into lecture values("ころも");
-insert into lecture values("にし");
-insert into lecture values("ラン");
-insert into lecture values("みだ。でる");
-insert into lecture values("みだ。す");
-insert into lecture values("ア");
-insert into lecture values("とも。なう");
-insert into lecture values("の。びる");
-insert into lecture values("の。ばす");
-insert into lecture values("うかが。う");
-insert into lecture values("うかが。い");
-insert into lecture values("に。る");
-insert into lecture values("ただ。し");
-insert into lecture values("くらい");
-insert into lecture values("ぐらい");
-insert into lecture values("テイ");
-insert into lecture values("ひく。い");
-insert into lecture values("す。む");
-insert into lecture values("なん");
-insert into lecture values("なに");
-insert into lecture values("サク");
-insert into lecture values("つく。る");
-insert into lecture values("ライ");
-insert into lecture values("く。る");
-insert into lecture values("ひ。える");
-insert into lecture values("ひ。やす");
-insert into lecture values("つめ。たい");
-insert into lecture values("はつ");
-insert into lecture values("はじめ");
-insert into lecture values("ベツ");
-insert into lecture values("わか。れる");
-insert into lecture values("たす。ける");
-insert into lecture values("たす。かる");
-insert into lecture values("つと。める");
-insert into lecture values("はげ。む");
-insert into lecture values("キャク");
-insert into lecture values("たまご");
-insert into lecture values("ソク");
-insert into lecture values("クン");
-insert into lecture values("きみ");
-insert into lecture values("ギン");
-insert into lecture values("ぎん。する");
-insert into lecture values("いな");
-insert into lecture values("ふく。む");
-insert into lecture values("てい。する");
-insert into lecture values("ふ。く");
-insert into lecture values("つ。げる");
-insert into lecture values("こま。る");
-insert into lecture values("かこ。む");
-insert into lecture values("ズ");
-insert into lecture values("さか");
-insert into lecture values("ことぶき");
-insert into lecture values("さまた。げる");
-insert into lecture values("ツイ");
-insert into lecture values("ビ");
-insert into lecture values("とこ");
-insert into lecture values("ゆか");
-insert into lecture values("の。べ");
-insert into lecture values("おとうと");
-insert into lecture values("かたち");
-insert into lecture values("エキ");
-insert into lecture values("い。む");
-insert into lecture values("しのぶ");
-insert into lecture values("こころざし");
-insert into lecture values("こころず。す");
-insert into lecture values("わす。れる");
-insert into lecture values("こころよい");
-insert into lecture values("おう。ずる");
-insert into lecture values("われ");
-insert into lecture values("いまし。める");
-insert into lecture values("いましめ");
-insert into lecture values("もど。す");
-insert into lecture values("ギ");
-insert into lecture values("把");
-insert into lecture values("ヨク");
-insert into lecture values("な。げる");
-insert into lecture values("お。る");
-insert into lecture values("ぬ。く");
-insert into lecture values("あらた。める");
-insert into lecture values("せ。める");
-insert into lecture values("せ。め");
-insert into lecture values("さら。に");
-insert into lecture values("むら");
-insert into lecture values("たば");
-insert into lecture values("すぎ");
-insert into lecture values("もと。め");
-insert into lecture values("もと。める");
-insert into lecture values("き。める");
-insert into lecture values("き。まる");
-insert into lecture values("ちんず。む");
-insert into lecture values("ボツ");
-insert into lecture values("ぼっ。する");
-insert into lecture values("おき");
-insert into lecture values("さわ");
-insert into lecture values("わざわ。い");
-insert into lecture values("くる。い");
-insert into lecture values("くる。う");
-insert into lecture values("ナン");
-insert into lecture values("おとこ");
-insert into lecture values("まち");
-insert into lecture values("ゲイ");
-insert into lecture values("やしろ");
-insert into lecture values("わたし");
-insert into lecture values("わたくし");
-insert into lecture values("こえ");
-insert into lecture values("きも");
-insert into lecture values("よ。い");
-insert into lecture values("はな");
-insert into lecture values("かんば。しい");
-insert into lecture values("ガ");
-insert into lecture values("み。る");
-insert into lecture values("み。える");
-insert into lecture values("み。せる");
-insert into lecture values("つの");
-insert into lecture values("い。う");
-insert into lecture values("こと");
-insert into lecture values("たに");
-insert into lecture values("まめ");
-insert into lecture values("バイ");
-insert into lecture values("う。る");
-insert into lecture values("あか");
-insert into lecture values("あか。い");
-insert into lecture values("はし。る");
-insert into lecture values("あし");
-insert into lecture values("た。りる");
-insert into lecture values("み");
-insert into lecture values("くるま");
-insert into lecture values("から。い");
-insert into lecture values("むか。え");
-insert into lecture values("むか。える");
-insert into lecture values("か。えす");
-insert into lecture values("ちか。い");
-insert into lecture values("ジャ");
-insert into lecture values("さと");
-insert into lecture values("ふせ。ぐ");
-insert into lecture values("あま。り");
-insert into lecture values("あま。る");
-insert into lecture values("バク");
-insert into lecture values("むぎ");
-insert into lecture values("つか。う");
-insert into lecture values("たとえ");
-insert into lecture values("じ。する");
-insert into lecture values("グ");
-insert into lecture values("そな。える");
-insert into lecture values("あたい");
-insert into lecture values("メン");
-insert into lecture values("まぬか。れる");
-insert into lecture values("めん。ずる");
-insert into lecture values("せい。する");
-insert into lecture values("す。る");
-insert into lecture values("ずり");
-insert into lecture values("さ。す");
-insert into lecture values("こざ。む");
-insert into lecture values("おろ。す");
-insert into lecture values("おろし");
-insert into lecture values("まい。る");
-insert into lecture values("シュク");
-insert into lecture values("と。る");
-insert into lecture values("ジュ");
-insert into lecture values("う。け");
-insert into lecture values("う。ける");
-insert into lecture values("あじ");
-insert into lecture values("よ。ぶ");
-insert into lecture values("いのち");
-insert into lecture values("ワ");
-insert into lecture values("やわ。らぐ");
-insert into lecture values("かた。い");
-insert into lecture values("かた。める");
-insert into lecture values("かた。まる");
-insert into lecture values("くに");
-insert into lecture values("つぼ");
-insert into lecture values("ヤ");
-insert into lecture values("よる");
-insert into lecture values("たてまつ。る");
-insert into lecture values("ほう。ずる");
-insert into lecture values("いもうと");
-insert into lecture values("あね");
-insert into lecture values("つま");
-insert into lecture values("はじ。まる");
-insert into lecture values("はじ。める");
-insert into lecture values("ガク");
-insert into lecture values("まな。ぶ");
-insert into lecture values("さだ。める");
-insert into lecture values("みの。る");
-insert into lecture values("たから");
-insert into lecture values("い。る");
-insert into lecture values("とど。く");
-insert into lecture values("とど。ける");
-insert into lecture values("クツ");
-insert into lecture values("くっする");
-insert into lecture values("いわ");
-insert into lecture values("きし");
-insert into lecture values("みさき");
-insert into lecture values("さいわ。い");
-insert into lecture values("そこ");
-insert into lecture values("みせ");
-insert into lecture values("つる");
-insert into lecture values("かれ");
-insert into lecture values("か。の");
-insert into lecture values("あや。しい");
-insert into lecture values("あや。しむ");
-insert into lecture values("ところ");
-insert into lecture values("うけたまわ。る");
-insert into lecture values("だ。く");
-insert into lecture values("お。す");
-insert into lecture values("お。し");
-insert into lecture values("お。さえる");
-insert into lecture values("こば。む");
-insert into lecture values("まね。く");
-insert into lecture values("ハイ");
-insert into lecture values("おが。む");
-insert into lecture values("はな。す");
-insert into lecture values("はな。つ");
-insert into lecture values("あ。かり");
-insert into lecture values("あ。けら");
-insert into lecture values("あき。らか");
-insert into lecture values("むかし");
-insert into lecture values("ひがし");
-insert into lecture values("まつ");
-insert into lecture values("いた");
-insert into lecture values("リン");
-insert into lecture values("はやし");
-insert into lecture values("えだ");
-insert into lecture values("はて");
-insert into lecture values("はた。す");
-insert into lecture values("ブ");
-insert into lecture values("あなど。る");
-insert into lecture values("スウ");
-insert into lecture values("ホ");
-insert into lecture values("あゆ。む");
-insert into lecture values("ある。く");
-insert into lecture values("ドク");
-insert into lecture values("デイ");
-insert into lecture values("どろ");
-insert into lecture values("わ。く");
-insert into lecture values("あぶら");
-insert into lecture values("チ");
-insert into lecture values("そ。う");
-insert into lecture values("あわ");
-insert into lecture values("ハ");
-insert into lecture values("なみ");
-insert into lecture values("な。く");
-insert into lecture values("そそ。ぐ");
-insert into lecture values("およ。ぐ");
-insert into lecture values("ほのお");
-insert into lecture values("ロ");
-insert into lecture values("まき");
-insert into lecture values("モツ");
-insert into lecture values("もの");
-insert into lecture values("テキ");
-insert into lecture values("まと");
-insert into lecture values("めくら");
-insert into lecture values("チョク");
-insert into lecture values("ジキ");
-insert into lecture values("なお。す");
-insert into lecture values("し。る");
-insert into lecture values("いの。る");
-insert into lecture values("いの。り");
-insert into lecture values("クウ");
-insert into lecture values("そら");
-insert into lecture values("なら。べる");
-insert into lecture values("なら。びに");
-insert into lecture values("こ。える");
-insert into lecture values("こ。やす");
-insert into lecture values("イク");
-insert into lecture values("そだ。てる");
-insert into lecture values("なえ");
-insert into lecture values("ジャク");
-insert into lecture values("わか。い");
-insert into lecture values("も。しくわ");
-insert into lecture values("くる。しい");
-insert into lecture values("にが。い");
-insert into lecture values("モ");
-insert into lecture values("しげ。る");
-insert into lecture values("くき");
-insert into lecture values("おもて");
-insert into lecture values("あら。わす");
-insert into lecture values("テツ");
-insert into lecture values("ジュツ");
-insert into lecture values("の。べる");
-insert into lecture values("かね");
-insert into lecture values("なが。い");
-insert into lecture values("かど");
-insert into lecture values("ソ");
-insert into lecture values("あお");
-insert into lecture values("あお。い");
-insert into lecture values("の。る");
-insert into lecture values("はなは。だしい");
-insert into lecture values("かかり");
-insert into lecture values("かか。る");
-insert into lecture values("びん");
-insert into lecture values("シュン");
-insert into lecture values("ゾク");
-insert into lecture values("たも。つ");
-insert into lecture values("しん");
-insert into lecture values("＊＊");
-insert into lecture values("うなが。す");
-insert into lecture values("かっむり");
-insert into lecture values("けず。る");
-insert into lecture values("まえ");
-insert into lecture values("いさ。ましい");
-insert into lecture values("いや。しい");
-insert into lecture values("いや。しめる");
-insert into lecture values("マッ");
-insert into lecture values("みなみ");
-insert into lecture values("ま。く");
-insert into lecture values("あつ。い");
-insert into lecture values("さ。く");
-insert into lecture values("アイ");
-insert into lecture values("あわ。れ");
-insert into lecture values("あわ。れむ");
-insert into lecture values("ヒン");
-insert into lecture values("しな");
-insert into lecture values("しろ");
-insert into lecture values("かき");
-insert into lecture values("そう。する");
-insert into lecture values("ちぎ。る");
-insert into lecture values("すがた");
-insert into lecture values("かく");
-insert into lecture values("むろ");
-insert into lecture values("フウ");
-insert into lecture values("ふう。ずる");
-insert into lecture values("オク");
-insert into lecture values("トゲ");
-insert into lecture values("た。てる");
-insert into lecture values("だて");
-insert into lecture values("ま。つ");
-insert into lecture values("うし。ろ");
-insert into lecture values("のち");
-insert into lecture values("あと");
-insert into lecture values("いか。る");
-insert into lecture values("おも。う");
-insert into lecture values("おこた。る");
-insert into lecture values("おこた。り");
-insert into lecture values("いそ。ぎ");
-insert into lecture values("いそ。ぐ");
-insert into lecture values("うら。み");
-insert into lecture values("うら。む");
-insert into lecture values("く。いる");
-insert into lecture values("くや。む");
-insert into lecture values("くや。み");
-insert into lecture values("ひろ。う");
-insert into lecture values("も。ち");
-insert into lecture values("も。つ");
-insert into lecture values("ゆび");
-insert into lecture values("まつりごと");
-insert into lecture values("じょ。する");
-insert into lecture values("ほどこ。す");
-insert into lecture values("ほし");
-insert into lecture values("うつ。る");
-insert into lecture values("はる");
-insert into lecture values("ゼ");
-insert into lecture values("ひる");
-insert into lecture values("かれ。る");
-insert into lecture values("から。す");
-insert into lecture values("か。する");
-insert into lecture values("がら");
-insert into lecture values("そ。める");
-insert into lecture values("そ。まる");
-insert into lecture values("やわ。らかい");
-insert into lecture values("はしら");
-insert into lecture values("リュウ");
-insert into lecture values("やなぎ");
-insert into lecture values("さか。え");
-insert into lecture values("さか。える");
-insert into lecture values("いずみ");
-insert into lecture values("あら。う");
-insert into lecture values("つ");
-insert into lecture values("うみ");
-insert into lecture values("ほら");
-insert into lecture values("あさ。い");
-insert into lecture values("すみ");
-insert into lecture values("か。り");
-insert into lecture values("せま。い");
-insert into lecture values("チン");
-insert into lecture values("めずら。しい");
-insert into lecture values("かい");
-insert into lecture values("はた");
-insert into lecture values("はたけ");
-insert into lecture values("ハツ");
-insert into lecture values("みな");
-insert into lecture values("あい");
-insert into lecture values("はぶ。く");
-insert into lecture values("すな");
-insert into lecture values("くだ。く");
-insert into lecture values("いわ。い");
-insert into lecture values("いわ。う");
-insert into lecture values("あき");
-insert into lecture values("くれない");
-insert into lecture values("べに");
-insert into lecture values("うつく。しい");
-insert into lecture values("たえ。る");
-insert into lecture values("せ");
-insert into lecture values("くさ。い");
-insert into lecture values("チャ");
-insert into lecture values("くさ");
-insert into lecture values("あら。い");
-insert into lecture values("あ。れる");
-insert into lecture values("ギャク");
-insert into lecture values("よう。する");
-insert into lecture values("はか。る");
-insert into lecture values("か。える");
-insert into lecture values("お。う");
-insert into lecture values("まけ");
-insert into lecture values("まけ。る");
-insert into lecture values("グン");
-insert into lecture values("まよ。う");
-insert into lecture values("まよ。わす");
-insert into lecture values("しりぞ。く");
-insert into lecture values("しりぞ。ける");
-insert into lecture values("おく。る");
-insert into lecture values("に。げる");
-insert into lecture values("おも。い");
-insert into lecture values("かさ。ねる");
-insert into lecture values("ーえ");
-insert into lecture values("おも");
-insert into lecture values("かぎ。り");
-insert into lecture values("かぎ。る");
-insert into lecture values("オン");
-insert into lecture values("ね");
-insert into lecture values("おと");
-insert into lecture values("かぜ");
-insert into lecture values("と。ぶ");
-insert into lecture values("た。べる");
-insert into lecture values("く。う");
-insert into lecture values("くび");
-insert into lecture values("か");
+イチ
+ひと。つ
+おつ
+おつに
+チョウ
+テイ 
+シチ
+なな。つ
+ク
+キュウ
+ここの。つ
+リョウ
+ニ
+ふた。つ
+ジン
+ニン
+ひと
+ニュウ
+いり
+い。れる
+ハチ
+やっつ
+トウ
+かたな
+リキ
+リョク
+ちから
+ジュウ
+とう
+また
+ジョウ
+サン
+みっつ
+うえ
+かみ
+のぼ。る
+あ。げる
+あ。がる
+カ
+ゲ
+した
+もと
+しも
+くだ。る
+さ。げる
+さ。がる
+ガン
+まる。い
+ひさ。しい
+ひさ。しく
+ボウ
+ボン
+は
+シャク
+セン
+ち
+およ。び
+およ。ぶ
+コウ
+くち
+ド
+ト
+つち
+シ
+セキ
+ゆう
+ダイ
+タイ
+おう。きい
+ジョ
+ニョウ
+おんな
+ス
+こ
+スン
+ショウ
+しい。さい
+やま 
+かわ 
+コ
+キ
+タン
+ほ。す
+ひ。る
+ゆみ
+ヨ
+あた。える
+バン
+マン
+サイ
+フ
+チュウ
+なか
+とぼ。しい
+ゴ
+たが。い
+いつ。つ
+セイ
+い
+コン
+キン
+いま
+カイ
+かい。して
+ブツ
+ほとけ
+ゲン
+ナイ
+うち
+ロク
+ムッツ
+キョウ
+フン
+ブン
+わ。ける
+セツ
+き。る
+か。る
+ケ
+ば。ける
+ば。かす
+ヒツ
+ヒキ
+ユウ
+とも
+ハン
+ヤク
+エン
+テン
+あめ
+タ
+ふと。い
+ふと。る
+おっと
+すこ。し
+すく。ない
+しゃく
+まぼろし
+とむら。い
+とまら。う
+イン
+ひ。く
+シン
+こころ
+と
+シュ
+て
+シュウ
+おさ。める
+モン
+ホウ
+かた
+ニチ
+ジツ
+ひ
+ゲツ
+ガツ
+つき
+モク
+ボク
+き
+とめ
+と。める
+と。まる
+ヒ
+くら。べる
+モウ
+うじ
+スイ
+みず
+ちち
+ヘン
+ギュウ
+うし
+ケン
+いぬ
+オウ
+ケツ
+か。ける
+か。く
+よ
+ソウ
+カツ
+トツ
+セ
+おか
+ヘイ
+ぬし
+つか。える
+つ。く
+つ。ける
+か。わり
+か。わる
+レイ
+イ
+ケイ
+あに
+サツ
+冬
+シュツ
+すい
+で。る
+だ。す
+カン
+くわ。える
+くわ。わる
+つつ。む
+コク
+きた
+なか。ば
+うらな。い
+うらな。う
+し。める
+キョ
+さ。る
+ふる。い
+め。す
+ウ
+みぎ
+シユウ
+よん
+よっつ
+アツ
+ガイ
+ほか
+そと
+シツ
+うしな。う
+シャ
+うつ。す
+二
+あま
+サ
+ひだり
+たくみ
+たく。みに
+いち
+ぬの
+ビョウ
+たいら
+ひら。たい
+ひら。たく
+ヨウ
+おさな。い
+ひろ。い
+ひろ。げる
+ひろ。がる
+かなら。ず
+ダ
+う。つ
+フツ
+はら。う
+ミ
+マツ
+すえ
+ホン
+ふだ
+ただ。しい
+ボ
+はは
+ミン
+たみ
+ヒョウ
+こおり
+エイ
+しる
+おか。す
+ギョク
+たま
+あま。い
+う。む
+う。まれる
+なま
+みち。いる
+デン
+た
+ユ
+よし
+もう。す
+ハク
+ビャク
+しろ。い
+かわ
+さら
+め
+ム
+や
+いし
+ジ
+しめ。す
+あな
+リツ
+た。つ
+ショ
+しょ。する
+ゴウ
+ベン
+こ。む
+こ。める
+こ。み
+まじ。る
+まじ。わる
+ギョウ
+あお。ぐ
+おお。せ
+まか。せる
+くわだ。て
+くわだ。てる
+フク
+ふせる
+バツ
+やす。み
+やす。む
+かり
+つた。える
+つた。わる
+あ。てる
+さき
+ひかり
+ひか。る
+ゼン
+まった。く
+ふたた。び
+レツ
+おと。る
+しるし
+あや。うい
+さけ。ぶ
+カク
+あ。う
+キチ
+ドウ
+おな。じ
+メイ
+ミョウ
+な
+リ
+は。く
+む。く
+む。かう
+す。う
+まわ。る
+まわ。り
+まわ。す
+よ。る
+ダン
+ザイ
+千
+おお。い
+この。む
+す。く
+ニョ
+あざ
+ソン
+ぞん
+ぞん。する
+タク
+ㇲ
+まも。る
+アン
+やす。い
+てら
+ジュン
+めぐ。る
+ほ
+ネン
+とし
+シキ
+いそが。しい
+な。る
+な。す
+あつか。う
+むね
+はや。い
+キョク
+ま。がる
+ま。げる
+エ
+あ。る
+つくえ
+く。ちる
+つぎ
+つ。ぐ
+し。ぬ
+マイ
+あせ
+けが。す
+けが。れる
+え
+いけ
+はい
+あらそ。う
+あらそ。い
+あ。たる
+ヒャク
+つ。くす
+チク
+たけ
+ベイ
+こめ
+いと
+ひつじ
+はね
+ロウ
+おい
+お。いる
+かんが。え
+かんが。える
+みみ
+ニク
+はだ
+みずか。ら
+いた。る
+ゼツ
+ふね
+ショク
+いろ
+いも
+しば
+むし
+い。く
+ゆ。く
+おこ。なう
+ころも
+にし
+ジン 
+ラン
+みだ。でる
+みだ。す
+ア
+とも。なう
+の。びる
+の。ばす
+うかが。う
+うかが。い
+に。る
+ただ。し
+くらい
+ぐらい
+テイ
+ひく。い
+す。む
+なん
+なに
+サク
+つく。る
+ライ
+く。る
+ひ。える
+ひ。やす
+つめ。たい
+はつ
+はじめ
+ベツ
+わか。れる
+たす。ける
+たす。かる
+つと。める
+はげ。む
+キャク
+たまご
+ソク
+クン
+きみ
+ギン
+ぎん。する
+いな
+ふく。む
+てい。する
+ふ。く
+つ。げる
+こま。る
+かこ。む
+ズ
+さか
+ことぶき
+さまた。げる
+ツイ
+ビ
+とこ
+ゆか
+の。べ
+おとうと
+かたち
+エキ
+い。む
+しのぶ
+こころざし
+こころず。す
+わす。れる
+こころよい
+おう。ずる
+われ
+いまし。める
+いましめ
+もど。す
+ギ
+把
+ヨク
+な。げる
+お。る
+ぬ。く
+あらた。める
+せ。める
+せ。め
+さら。に
+むら
+たば
+すぎ
+もと。め
+もと。める
+き。める
+き。まる
+ちんず。む
+ボツ
+ぼっ。する
+おき
+さわ
+わざわ。い
+くる。い
+くる。う
+ナン
+おとこ
+まち
+ゲイ
+やしろ
+わたし
+わたくし
+こえ
+きも
+よ。い
+はな
+かんば。しい
+ガ
+み。る
+み。える
+み。せる
+つの
+い。う
+こと
+たに
+まめ
+バイ
+う。る
+あか
+あか。い
+はし。る
+あし
+た。りる
+み
+くるま
+から。い
+むか。え
+むか。える
+か。えす
+ちか。い
+ジャ
+さと
+ふせ。ぐ
+あま。り
+あま。る
+バク
+むぎ
+つか。う
+たとえ
+じ。する
+グ
+そな。える
+あたい
+メン
+まぬか。れる
+めん。ずる
+せい。する
+す。る
+ずり
+さ。す
+こざ。む
+おろ。す
+おろし
+まい。る
+シュク
+と。る
+ジュ
+う。け
+う。ける
+あじ
+よ。ぶ
+いのち
+ワ
+やわ。らぐ
+かた。い
+かた。める
+かた。まる
+くに
+つぼ
+ヤ
+よる
+たてまつ。る
+ほう。ずる
+いもうと
+あね
+つま
+はじ。まる
+はじ。める
+ガク
+まな。ぶ
+さだ。める
+みの。る
+たから
+い。る
+とど。く
+とど。ける
+クツ
+くっする
+いわ
+きし
+みさき
+さいわ。い
+そこ
+みせ
+つる
+かれ
+か。の
+あや。しい
+あや。しむ
+ところ
+うけたまわ。る
+だ。く
+お。す
+お。し
+お。さえる
+こば。む
+まね。く
+ハイ
+おが。む
+はな。す
+はな。つ
+あ。かり
+あ。けら
+あき。らか
+むかし
+ひがし
+まつ
+いた
+リン
+はやし
+えだ
+はて
+はた。す
+ブ
+あなど。る
+スウ
+ホ
+あゆ。む
+ある。く
+ドク
+デイ
+どろ
+わ。く
+あぶら
+チ
+そ。う
+あわ
+ハ
+なみ
+な。く
+そそ。ぐ
+およ。ぐ
+ほのお
+ロ
+まき
+モツ
+もの
+テキ
+まと
+めくら
+チョク
+ジキ
+なお。す
+し。る
+いの。る
+いの。り
+クウ
+そら
+なら。べる
+なら。びに
+こ。える
+こ。やす
+イク
+そだ。てる
+なえ
+ジャク
+わか。い
+も。しくわ
+くる。しい
+にが。い
+モ
+しげ。る
+くき
+おもて
+あら。わす
+テツ
+ジュツ
+の。べる
+かね
+なが。い
+かど
+ソ
+あお
+あお。い
+の。る
+はなは。だしい
+かかり
+かか。る
+びん
+シュン
+ゾク
+たも。つ
+しん
+＊＊
+うなが。す
+かっむり
+けず。る
+まえ
+いさ。ましい
+いや。しい
+いや。しめる
+マッ
+みなみ
+ま。く
+あつ。い
+さ。く
+アイ
+あわ。れ
+あわ。れむ
+ヒン
+しな
+しろ
+かき
+そう。する
+ちぎ。る
+すがた
+かく
+むろ
+フウ
+ふう。ずる
+オク
+トウゲ
+た。てる
+だて
+ま。つ
+うし。ろ
+のち
+あと
+いか。る
+おも。う
+おこた。る
+おこた。り
+いそ。ぎ
+いそ。ぐ
+うら。み
+うら。む
+く。いる
+くや。む
+くや。み
+ひろ。う
+も。ち
+も。つ
+ゆび
+まつりごと
+じょ。する
+ほどこ。す
+ほし
+うつ。る
+はる
+ゼ
+ひる
+かれ。る
+から。す
+か。する
+がら
+そ。める
+そ。まる
+やわ。らかい
+はしら
+リュウ
+やなぎ
+さか。え
+さか。える
+いずみ
+あら。う
+つ
+うみ
+ほら
+あさ。い
+すみ
+か。り
+せま。い
+チン
+めずら。しい
+かい
+はた
+はたけ
+ハツ
+みな
+あい
+はぶ。く
+すな
+くだ。く
+いわ。い
+いわ。う
+あき
+くれない
+べに
+うつく。しい
+たえ。る
+せ
+くさ。い
+チャ
+くさ
+あら。い
+あ。れる
+ギャク
+よう。する
+はか。る
+か。える
+お。う
+まけ
+まけ。る
+グン
+まよ。う
+まよ。わす
+しりぞ。く
+しりぞ。ける
+おく。る
+に。げる
+おも。い
+かさ。ねる
+ーえ
+おも
+かぎ。り
+かぎ。る
+オン
+ね
+おと
+かぜ
+と。ぶ
+た。べる
+く。う
+くび
+か
