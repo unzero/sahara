@@ -146,7 +146,7 @@ public class Ventana_Central extends javax.swing.JFrame {
         try{
             Conexion conexion = new Conexion(confg);
             points = new Score();
-            for(int x=0;x<20;++x){
+            for(int x=0;x<50;++x){
                 select_lecture nv = new select_lecture(this,true,conexion,points);
                 this.jLabel1.setText("Puntos: "+points+"/10");
                 Thread.sleep(100);

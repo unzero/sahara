@@ -150,17 +150,17 @@ public class select_lecture extends javax.swing.JDialog implements ActionListene
         run();
         
         //creating the alarm, it sumulates the time that the user have to answer 
-        Thread tt = new Thread( new Alarm(botones[(ac+1)%4]));
+       /* Thread tt = new Thread( new Alarm(botones[(ac+1)%4]));
         tt.start();
-        
+        */
         this.setVisible(true);
         System.out.println("OK");
-        try{
+        /*try{
             if(tt.getState() == Thread.State.TIMED_WAITING){
                 tt.notify();
             }
             tt.join();
-        }catch(Exception ex){}
+        }catch(Exception ex){}*/
     }
     
     public void run(){
