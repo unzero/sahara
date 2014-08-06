@@ -41,7 +41,7 @@ public class Configurar extends javax.swing.JPanel {
 
         jLabel2.setText("Nivel");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Nivel 1", "Nivel 2", "Nivel 3", "Nivel 4", "Nivel 5", "Nivel 6", "Nivel 7", "Nivel 8", "Nivel 9", "All" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Nivel 1", "Nivel 2", "Nivel 3", "Nivel 4", "Nivel 5", "Nivel 6", "Nivel 7", "Nivel 8", "Nivel 9", "Nivel 10", "Nivel 11", "All" }));
 
         jButton1.setText("Guardar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -114,6 +114,8 @@ public class Configurar extends javax.swing.JPanel {
         "lvl_7.dat",
         "lvl_8.dat",
         "lvl_9.dat",
+        "lvl_10.dat",
+        "lvl_11.dat",
         "data.dat"};
 
 }
